@@ -1,19 +1,18 @@
 body {
     margin: 0;
-    padding-top: 800px;
+    padding-top: 750px;
     text-align: center;
 }
 
 .profile {
-    border-radius: 50%;
-
+    border-radius: 50px;
 }
 
 #welcome {
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     background: linear-gradient(#60ebeb 0%, #27ae60 100%);
-    display:table;
+    display: table;
     width: 100%;
     height: 100%;
 }
@@ -22,13 +21,13 @@ h1 {
 
     font-size: 40px;
     font-family: sans-serif;
-    font-weight: 300;
+    font-weight: 900;
 
 }
 
 #name {
     font-size: 50px;
-    font-family: 'Cinzel Decorative', cursive;
+    font-family: cursive;
 
 }
 
@@ -39,7 +38,7 @@ h2 {
 }
 
 #bio {
-    font-family: 'Cinzel Decorative', cursive;
+    font-family:  cursive;
     padding: 50px;
 }
 
@@ -55,49 +54,3 @@ h2 {
     display: table-cell;
     vertical-align: middle;
 }
-
-.menu {
-    position: fixed;
-    background: white;
-    width: 100%;
-    margin-top: 0px;
-    top: 0px;
-    z-index: 10;
-}
-
-.links {
-    display: inline;
-    padding-left: 33px;
-    padding-right: 25px;
-    font-family: fantasy;
-    font-size: 20px
-}
-.links:hover {
-    font-size: 25px;
-    text-decoration: underline;
-}
-
-a {
-    text-decoration: none;
-}
-
-#writings a {
-    text-decoration: underline !important;
-    color: green !important;
-}
-
-#contact{
-    background:lightgray;
-    color:red;
-}
-
-#contact iframe{
-    width: 100%;
-}
-
-.contact_1 h3
-{
-    display: inline;
-    color:red;
-}
-
